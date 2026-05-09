@@ -33,10 +33,10 @@ In this section I present a summary of the steps that I have followed to install
 1.  I installed the clojure tools
 
     carlos@~% brew install clojure/tools/clojure
-
-   carlos@~% clojure --version
-   
-   Clojure CLI version 1.12.4.1618
+	
+	carlos@~% clojure --version
+	
+	Clojure CLI version 1.12.4.1618
 
 
 1. I installed leiningen 
