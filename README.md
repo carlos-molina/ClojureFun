@@ -51,12 +51,11 @@ In this section I present a summary of the steps that I have followed to install
 
 1. I created the .lein file
 
-   carlos@~% pwd
-
-   /Users/carlosmolina
-
-   <br/><br/>
-   carlos@~% mkdir .lein
+    carlos@~% pwd
+	
+	/Users/carlosmolina
+	
+	carlos@~% mkdir .lein
 
 1. I run REPL
  
