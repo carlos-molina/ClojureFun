@@ -3,10 +3,12 @@
 This exercise shows an alternative to execute the hello world program in clojure. 
 
 ## Leinigen
- I used the [leiningen tool](https://leiningen.org "lein")   for creating the clojure project because it is good enough for examining clojure and it is simple. 
+ I have used the [leiningen tool](https://leiningen.org "lein")   for creating the clojure project because it is good enough for examining clojure and it is simple. 
+ 
+ I used vim to edit the files. Any other editor (eg emacs) will do the job.
  
  I ruled out   
-[Visual Studio Code VSC editor](https://code.visualstudio.com "VSC") because I found it too demanding and distracting. Time is spent on understanding and tuning the VSC window, extensions and connecting it with GitHub repositories rather than on clojure. 
+[Visual Studio Code VSC editor](https://code.visualstudio.com "VSC") because I found it too demanding and distracting. Time is spent on understanding and tuning the VSC window, extensions and connecting it with GitHub repositories for automatic sync rather than on the examination of clojure. VSC is a sophisticated tool. Yet I do not need to sync with Git from my editor now, GitHub Desktop can do the job for the time being.   
       
 ## Platform 
 
@@ -19,6 +21,10 @@ This exercise shows an alternative to execute the hello world program in clojure
 1.   I have installed Leiningen 2.12.0 on Java 25.0.2 OpenJDK 64-Bit Server VM
       
       I installed with: brew install leiningen
+
+## Step by step guidance
+The project.clj and clojure.core.clj files contain copy and paste of the command lines that I executed.
+
 
 ## Corresponding author  
 carlos.molina@cl.cam.ac.uk   
