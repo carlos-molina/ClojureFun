@@ -5,6 +5,7 @@ This program shows hows how clojure uses a loop and recursion to implement the f
 ## Source and references
 I copied and pasted the code of the factorial function from
 [A history of Clojure, Rich Hickey, Proc. of the ACM on Programming Languages, N.71, V.4 2020.](https://doi.org/10.1145/3386321 "Rich Hickey") and I call it from a main function.]
+An [open source copy](https://docdrop.org/download_annotation_doc/3386321-trk2f.pdf?ref=felixbarbalet.com "Rich Hickey") is currently available.
 
 Function definition, calls and arguments are explained in several books and web pages.
 See for example Chapter 9 of [Clojure, Karthikeyan A K](https://clojure-book.gitlab.io/book.html#_functions) "Karthikeyan book")
