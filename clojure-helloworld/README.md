@@ -16,11 +16,11 @@ This exercise shows an alternative to execute the hello world program in clojure
 
 1.  I have installed Clojure CLI version 1.12.4.1618
 
-      Installed it with: brew install clojure/tools/clojure
+      Installed it with: % brew install clojure/tools/clojure
 
 1.   I have installed Leiningen 2.12.0 on Java 25.0.2 OpenJDK 64-Bit Server VM
       
-      I installed with: brew install leiningen
+      I installed it with: % brew install leiningen
 
 ## Step by step guidance
 The command_line_steps.txt file contains copy and paste of the command lines that I executed to created and execute clojure-helloworld.
