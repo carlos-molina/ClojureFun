@@ -1,0 +1,93 @@
+;; Program: project.clj file to support the execution of
+;;          clojure-helloworld.clj 
+;;
+;; Programmer:  Carlos.Molina@cl.cam.ac.uk
+;; Date         8 May 2026
+;;              Department of Computer Science and Technology,
+;;              University of Cambridge.
+;; Source: I took inspiration from
+;;   https://clojurebridgelondon.github.io/community-docs/docs/getting-started/helloworld/
+;;
+
+I followed these steps to create and execute the clojure-helloworld
+program. 
+
+1) I assume that clojure and its tools are installed
+
+2) I am in my clojure directory
+carlos@clojure% pwd
+/Users/carlosmolina/code/clojure
+ 
+
+3) I use lein to create a clojure project 
+   called clojure-helloworld
+carlos@clojure% lein new clojure-helloworld
+Generating a project called clojure-helloworld based on the 'default' template.
+The default template is intended for library projects, not applications.
+To see other templates (app, plugin, etc), try `lein help new`.
+ 
+4) lein creates a project with the following structure
+carlos@clojure% ls -l
+total 0
+drwxr-xr-x  12 carlosmolina  staff  384  8 May 17:56 clojure-helloworld/
+ 
+
+
+carlos@clojure% cd clojure-helloworld
+
+
+carlos@clojure-helloworld% ls -la
+total 72
+drwxr-xr-x  12 carlosmolina  staff    384  8 May 17:56 ./
+drwxr-xr-x   3 carlosmolina  staff     96  8 May 17:56 ../
+-rw-r--r--   1 carlosmolina  staff    125  8 May 17:56 .gitignore
+-rw-r--r--   1 carlosmolina  staff    148  8 May 17:56 .hgignore
+-rw-r--r--   1 carlosmolina  staff    801  8 May 17:56 CHANGELOG.md
+drwxr-xr-x   3 carlosmolina  staff     96  8 May 17:56 doc/
+-rw-r--r--   1 carlosmolina  staff  14372  8 May 17:56 LICENSE
+-rw-r--r--   1 carlosmolina  staff    362  8 May 17:56 project.clj
+-rw-r--r--   1 carlosmolina  staff    757  8 May 17:56 README.md
+drwxr-xr-x   2 carlosmolina  staff     64  8 May 17:56 resources/
+drwxr-xr-x   3 carlosmolina  staff     96  8 May 17:56 src/
+drwxr-xr-x   3 carlosmolina  staff     96  8 May 17:56 test/
+carlos@clojure-helloworld% 
+
+
+5) I edited the project file project.clj to specify
+   dependencies.
+carlos@clojure-helloworld% vi project.clj
+
+...
+  :main clojure-helloworld.core)
+
+
+
+6) I edited the core.clj that lein creates by default.
+carlos@clojure_helloworld% pwd
+/Users/carlosmolina/code/clojure/clojure-helloworld/src/clojure_helloworld
+
+
+carlos@clojure_helloworld% ls -l
+total 8
+-rw-r--r--  1 carlosmolina  staff  105  8 May 17:56 core.clj
+  
+
+carlos@clojure_helloworld% more core.clj
+(ns clojure-helloworld.core)
+
+(defn foo
+  "I don't do a whole lot."
+  [x]
+  (println x "Hello, World!"))
+
+ 
+carlos@clojure_helloworld% vi core.clj
+(ns clojure-helloworld.core)
+
+(defn -main 
+  "This is the function to print: Hello world!, in clojure language"
+  []
+  (println "Hello world!"))
+
+
+
