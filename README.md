@@ -2,7 +2,7 @@
 This clojurefun repo contains some examples of programs written in the clojure language.
 
 
-## The clojure functional programing language
+## Clojure is a functional programing language
 Clojure is general-purpose programming language released in 2007. It is a functional programming language and a good alternative to consider for the implementation of multi-threaded applications that demand, immutable, persistent data structures and concurrency. 
 
 In clojure, lists, vectors, maps and sets, strings, and all the scalar types, are immutable. Moreover, among other features, it includes, built-in support for concurrency via transactional memory and asynchronous agents. As such, it is free from the complexity of mutex locks and helps to design and implement clean and correct applications. More importantly, in comparison with code written in non-functional programming languages, clojure code is concise, easy to read and examine for correctness and, by extension, less buggy.
