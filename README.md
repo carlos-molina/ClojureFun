@@ -14,7 +14,8 @@ As explained in [A history of Clojure, Rich Hickey, Proc. of the ACM on Programm
 ## Deployment of clojure
 The [Install clojure](https://clojure.org/guides/install_clojure "Install Clojure") web page provides the guidanc e to install clojure and it supportive tool for Windows, Linux and MacOS platforms.
 
-In this section I present a summary of the steps that I have followed to install clojure on a **MacBook Pro running Sequoia 15.7.3**.
+In this section I present a summary of the steps that I have followed to install clojure on a **MacBook Pro running Sequoia 15.7.3** and Homebrew 5.1.10 installed. 
+
 
 1. I installed a java SDK: I used tumurin which is a well known open source
 
