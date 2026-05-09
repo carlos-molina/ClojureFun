@@ -17,11 +17,79 @@ The [Install clojure](https://clojure.org/guides/install_clojure "Install Clojur
 
 In this section I present a summary of the steps that I have followed to install clojure on a MacBook Pro running Sequoia 15.7.3
 
-1. first
-1. sec
-1. third   
+1. I installed a java SDK: I used tumurin which is a well known open source
 
+    carlos@~% brew install --cask temurin
+	
+	...
+	
+	temurin was successfully installed!
+	
+	carlos@~% java --version
+	
+	openjdk 26.0.1 2026-04-21
+	
+
+1.  I installed the clojure tools
+
+    carlos@~% brew install clojure/tools/clojure
+
+   carlos@~% clojure --version
+   
+   Clojure CLI version 1.12.4.1618
+
+
+1. I installed leiningen 
+
+   carlos@~% brew install leiningen
+   <br/><br/> 
+   carlos@ClojureFun% lein --version
+   
+   Leiningen 2.12.0 on Java 25.0.2 OpenJDK 64-Bit Server VM
+   
  
+
+1. I created the .lein file
+
+   carlos@~% pwd
+
+   /Users/carlosmolina
+
+   <br/><br/>
+   carlos@~% mkdir .lein
+
+1. I run REPL
+ 
+   carlos@clojure% lein repl
+      
+   Retrieving nrepl/nrepl/1.0.0/nrepl-1.0.0.pom from clojars
+   
+   ...
+   
+   nREPL server started on port 49643 on host 127.0.0.1 - nrepl://127.0.0.1:49643
+   
+   REPL-y 0.5.1, nREPL 1.3.0
+   
+   Clojure 1.12.2
+   
+   OpenJDK 64-Bit Server VM 25.0.2
+  
+   ...
+  
+   user=>
+   
+
+1. I tested the installation with a hello-world program
+
+   user=> (prn "Hello clojure!")
+   
+   "Hello clojure!"
+
+   nil
+
+   user=>
+
+
 
 ## Examples of clojure projects
 
