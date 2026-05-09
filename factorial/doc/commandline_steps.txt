@@ -1,0 +1,43 @@
+;; Program: project.clj file to support the execution of factorial.clj 
+;;
+;; Programmer:  Carlos.Molina@cl.cam.ac.uk
+;; Date      9 May 2026
+;;              Department of Computer Science and Technology,
+;;              University of Cambridge.
+;; I followed these steps to create and execute the factorial program.
+;;
+
+I assume that clojure and its tools are installed. I use vim to edit the files. I deliberately avoided more sophisticated editor like VS code to keep the explanation simple and focus on clojure, rather than on the editor. For example, in this exercise I wanted to see the simplicity of clojure in the implementation of a recursive function.  
+
+1) I generated a project called factorial based on the 'default' template.
+carlos@ClojureFun% lein new factorial         
+
+2) See the typical project structire of clojure
+carlos@ClojureFun% ls -l
+total 80
+drwxr-xr-x  15 carlosmolina  staff    480  8 May 19:46 clojure-helloworld/
+drwxr-xr-x  12 carlosmolina  staff    384  8 May 22:46 factorial/
+-rw-r--r--@  1 carlosmolina  staff  35129  8 May 19:20 LICENSE
+-rw-r--r--@  1 carlosmolina  staff   2402  8 May 22:42 README.md
+
+
+3) I edited the project.clj that lein created by default, to add the name of the main function. 
+
+carlos@factorial%  pwd
+/Users/carlosmolina/local/git/ClojureFun/factorial
+carlos@factorial% vi project.clj
+
+ :main factorial.core)
+  
+
+4) I edited the clore.clj to add the code of the factorial function and the main function. 
+
+carlos@factorial% pwd
+/Users/carlosmolina/local/git/ClojureFun/factorial/src/factorial
+
+carlos@factorial% vi core.clj 
+
+
+
+ 
+

@@ -91,6 +91,7 @@ In this section I present a summary of the steps that I have followed to install
 
 
 ## Examples of clojure projects
+Some projects of different levels of complexity to examine clojure features. I start with the hello-world program.
 
 ### Hello world project
 This project shows the implementation of the hello-world programm in clojure. 
@@ -100,7 +101,7 @@ More importantly, it shows how to build a project in clojure and execute it.
 
 ### Factorial project
 This projects shows the implementation of the factorial function in clojure.
-
+I assume that clojure and its tools are installed. I use vim to edit the files. I deliberately avoided more sophisticated editor like VS code to keep the explanation simple and focus on clojure, rather than on the editor. For example, in this exercise I wanted to see the simplicity of clojure in the implementation of a recursive function.  
 
 
 ## Corresponding author  
