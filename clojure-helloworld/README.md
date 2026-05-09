@@ -1,22 +1,28 @@
 # clojure-helloworld
 
-A Clojure library designed to ... well, that part is up to you.
+This exercise shows an alternative to execute the hello world program in clojure. 
 
-## Usage
+## Leinigen
+ I used the [leiningen tool](https://leiningen.org "lein")   for creating the clojure project because it is good enough for examining clojure and it is simple. 
+ 
+ I ruled out   
+[Visual Studio Code VSC editor](https://code.visualstudio.com "VSC") because I found it too demanding and distracting. Time is spent on understanding and tuning the VSC window, extensions and connecting it with GitHub repositories rather than on clojure. 
+      
+## Platform 
 
-FIXME
+1.  I have a MacBook Pro with Sequoia 15.7.3
 
-## License
+1.  I have installed Clojure CLI version 1.12.4.1618
 
-Copyright © 2026 FIXME
+      Installed it with: brew install clojure/tools/clojure
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-https://www.eclipse.org/legal/epl-2.0.
+1.   I have installed Leiningen 2.12.0 on Java 25.0.2 OpenJDK 64-Bit Server VM
+      
+      I installed with: brew install leiningen
 
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+## Corresponding author  
+carlos.molina@cl.cam.ac.uk   
+Department of Computer Science and Technology    
+(The Computer Lab),    
+University of Cambridge.
+ 
