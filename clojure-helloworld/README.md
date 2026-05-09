@@ -23,7 +23,7 @@ This exercise shows an alternative to execute the hello world program in clojure
       I installed with: brew install leiningen
 
 ## Step by step guidance
-The project.clj and clojure.core.clj files contain copy and paste of the command lines that I executed.
+The command_line_steps.txt file contains copy and paste of the command lines that I executed to created and execute clojure-helloworld.
 
 
 ## Corresponding author  
